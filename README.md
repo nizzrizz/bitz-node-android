@@ -6,8 +6,8 @@ An Easy Guide to Run Bitz Node in Android Using Termux/Userland.
 
 # First Install Termux or Userland
 
-Termux: https://f-droid.org/packages/com.termux
-Userland: https://play.google.com/store/apps/details?id=tech.ula **(Recommended)**
+1. Termux: https://f-droid.org/packages/com.termux
+2. Userland: https://play.google.com/store/apps/details?id=tech.ula **(Recommended)**
 
 (Userland Is Easy Cause You No Need to Install Ubuntu Nanually, But Termux is Also Ok)
 
