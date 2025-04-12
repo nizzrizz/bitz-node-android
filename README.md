@@ -200,4 +200,4 @@ screen -S bitz
 ./auto-bitz.sh
 ```
 
-*Now This Script Will Restart Your Node Automatically After Crash, You Need to Manually Restart on Every Crash*
+*Now This Script Will Restart Your Node Automatically After Crash, You No Need to Manually Restart on Every Crash*
