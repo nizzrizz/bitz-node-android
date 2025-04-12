@@ -26,12 +26,12 @@ Install Ubuntu in Termux:
 ```bash
 pkg update && pkg upgrade
 pkg install proot-distro
-proot-distro install ubuntu-20.04
+proot-distro install ubuntu
 ```
 
 Login to Ubuntu:
 ```bash
-proot-distro login ubuntu-20.04
+proot-distro login ubuntu
 ```
 
 After Installing Ubuntu Follow Below Steps 👇:
@@ -43,12 +43,26 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install -y build-essential clang cmake curl git libssl-dev pkg-config
 ```
 
+**Install Packages For Termux**
+```bash
+apt update && apt upgrade -y
+apt install -y build-essential clang cmake curl git libssl-dev pkg-config
+```
+
 **2. Install CA Certificates:**
 ```bash
 sudo apt update
 sudo apt install --reinstall ca-certificates
 sudo update-ca-certificates
 ```
+
+**Install CA Certificates For Termux:**
+```bash
+apt update
+apt install --reinstall ca-certificates
+update-ca-certificates
+```
+
 
 **2. Install Rust:**
 ```bash
@@ -76,9 +90,19 @@ cargo build --release
 sudo cp target/release/solana /usr/local/bin/
 ```
 
+**Move Solana CLI to Ubuntu For Termux:**
+```bash
+cp target/release/solana /usr/local/bin/
+```
+
 **6. Move Keygen:**
 ```bash
 sudo cp target/release/solana-keygen /usr/local/bin/
+```
+
+**Move Keygen For Termux:**
+```bash
+cp target/release/solana-keygen /usr/local/bin/
 ```
 
 **Exit From Termux/Userland (Close Session) and Reopen**
