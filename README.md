@@ -16,7 +16,7 @@ An Easy Guide to Run Bitz Node in Android Using Termux/Userland.
 1. Install Application
 2. Select Ubuntu
 3. Select Minimal
-4. Continue With SSH (We Don't Need GUI)
+4. Continue With Terminal (We Don't Need GUI)
 5. Allow to Download File
 6. Wait Until Finished
 
