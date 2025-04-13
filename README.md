@@ -179,6 +179,21 @@ bitz claim
 *Claiming on Every 24H is Recommended*
 
 
+# Maximize Earning
+**1. Check Your CPU Cores**
+```bash
+nproc
+```
+*This command will show you how many cores do your phone actually have*
+
+
+**2. Increase CPU on Node**
+```bash
+bitz collect --cores 6
+```
+*Use this command and adjust core number according to above command, now just send command and Maximize Your Mining Efficiency*
+
+
 # Important Tips
 1. Make Sure Do Not Close Terminal
 2. Keep in Background
